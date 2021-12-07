@@ -24,9 +24,9 @@ Ensure below requirements fulfilled on server
 Clone the repo on server
 Update below variables with appropriate values by editing automation.sh
   #update the variable with the s3 bucket name in aws
-  s3_bucket="upgrad-sujithshajee"
+  s3_bucket="upgrad-kajal"
   #provide the prefix that needs to be used to archive file on s3 bucket
-  fileprefix="sujith"
+  fileprefix="Kajal"
 Provide execute permission on the automation.sh file running below command
   sudo su
   chmod 755 automation.sh
