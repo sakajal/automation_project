@@ -34,7 +34,7 @@ tar -vcf "$filename" /var/log/apache2/*.log
 aws s3 cp "$filename" s3://"$bucket_name"/"$filename"
 file_size=$(du -h "$filename" | cut -f1)
 
-
+#Task
 inventory_file="/var/www/html/inventory.html"
 cron_file="/etc/cron.d/automation"
 if [ ! -f "$inventory_file" ]
